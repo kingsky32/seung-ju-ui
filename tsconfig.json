@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
+    "paths": {
+      "#components/*": ["./styles/*"],
+      "#styles/*": ["./styles/*"]
+    },
     "strictNullChecks": true,
     "module": "esnext",
     "moduleResolution": "node",
