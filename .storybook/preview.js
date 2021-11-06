@@ -1,5 +1,5 @@
 import { addDecorator } from '@storybook/react';
-import UIProvider from '../src/components/provider/Provider';
+import UIProvider from '#components/provider/Provider';
 
 export const decorators = [
   (Story) => (

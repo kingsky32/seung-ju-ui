@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider, DefaultTheme } from 'styled-components';
-import themes from '../../styles/themes';
-import GlobalStyles from '../../styles/GlobalStyles';
+import themes from '#styles/themes';
+import GlobalStyles from '#styles/GlobalStyles';
 
 interface UIProviderProps {
   theme?: DefaultTheme;

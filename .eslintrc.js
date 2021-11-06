@@ -17,7 +17,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: '16.9',
+      version: '17.0',
     },
     polyfills: ['Promise', 'URL'],
     'import/parsers': {
