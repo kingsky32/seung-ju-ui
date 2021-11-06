@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
-      "#components/*": ["./styles/*"],
-      "#styles/*": ["./styles/*"]
+      "#components/*": ["src/components/*"],
+      "#styles/*": ["src/styles/*"]
     },
     "strictNullChecks": true,
     "module": "esnext",
