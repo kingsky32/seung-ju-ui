@@ -8,7 +8,10 @@ declare module 'styled-components' {
       placeholder: '#CCCCCC';
       white: '#FFFFFF';
     };
-    size: {
+    borderColor: {
+      default: '#CCCCCC';
+    };
+    fontSize: {
       'extra-large': '2.6rem';
       large: '2.1rem';
       big: '1.6rem';
